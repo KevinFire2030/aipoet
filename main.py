@@ -1,13 +1,13 @@
 
 
-import os
-from dotenv import load_dotenv
-load_dotenv()
-import streamlit as st
+#from dotenv import load_dotenv
+#load_dotenv()
 # from langchain_openai import OpenAI, ChatOpenAI
 # from langchain_community.llms import OpenAI
 #from langchain_community.chat_models import ChatOpenAI
 
+import os
+import streamlit as st
 from langchain_openai import ChatOpenAI
 
 # 환경 변수에서 API 키 가져오기
